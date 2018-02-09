@@ -5,7 +5,7 @@
   "author": "Sascha Künstler <contact.schascha@gmail.com> (http://www.schaschaweb.de)",
   "license": "MIT",
   "scripts": {
-    "dev": "brunch watch --server",
+    "start": "brunch watch --server",
     "build": "brunch build --production"
   },
   "devDependencies": {
@@ -13,8 +13,11 @@
     "babel-brunch": "^6.1.1",
     "babel-preset-env": "^1.6.1",
     "brunch": "brunch/brunch#ee73ef0f92add24b46c4478fa3f0b5bc206bbe7d",
+    "eslint": "^4.17.0",
+    "eslint-brunch": "^3.12.0",
     "postcss-brunch": "brunch/postcss-brunch#07961d39cecfbc9aa02b48259bb551e56defd4e8",
     "sass-brunch": "^2.10.4",
+    "sass-lint-brunch": "^1.1.0",
     "uglify-js-brunch": "^2.10.0"
   },
   "dependencies": {

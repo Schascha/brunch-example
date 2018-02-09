@@ -1,0 +1,108 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": "eslint:recommended",
+  "globals": {
+    "exports": true,
+    "module": true,
+    "define": true,
+    "require": true,
+    "window": true,
+    "document": true,
+    "__dirname": true,
+    "process": true
+  },
+  "rules": {
+    "curly": [
+      2,
+      "all"
+    ],
+    "keyword-spacing": [
+      2,
+      {}
+    ],
+    "one-var": [
+      2,
+      "always"
+    ],
+    "object-curly-spacing": [
+      2,
+      "never",
+    ],
+    "array-bracket-spacing": [
+      2,
+      "never"
+    ],
+    "space-in-parens": [
+      2,
+      "never"
+    ],
+    "space-before-blocks": [
+      2,
+      {}
+    ],
+    "indent": [
+      2,
+      "tab"
+    ],
+    "key-spacing": [
+      2,
+      {
+        "beforeColon": false,
+        "afterColon": true
+      }
+    ],
+    "space-infix-ops": 2,
+    "no-with": 2,
+    "brace-style": [
+      2,
+      "1tbs",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "no-multiple-empty-lines": [
+      2,
+      {
+        "max": 2,
+        "maxBOF": 0,
+        "maxEOF": 1
+      }
+    ],
+    "no-trailing-spaces": [
+      2,
+      {
+      }
+    ],
+    "eol-last": 2,
+    "consistent-this": [
+      2,
+      "self"
+    ],
+    "no-cond-assign": [
+      2,
+      "except-parens"
+    ],
+    "no-console": 1,
+    "eqeqeq": 2,
+    "no-eq-null": 2,
+    "no-unused-expressions": 2,
+    "wrap-iife": [
+      2,
+      "any"
+    ],
+    "no-caller": 2,
+    "quotes": [
+      2,
+      "single"
+    ],
+    "no-undef": 2,
+    "no-unused-vars": 2,
+    "strict": 0
+  },
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}
