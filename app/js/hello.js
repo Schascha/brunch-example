@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 var
 	DEFAULTS = {
 		el: 'h1',
@@ -9,7 +11,12 @@ class Hello {
 
 	constructor(options) {
 		this.options = Object.assign({}, DEFAULTS, options);
-		document.querySelector(this.options.el).innerHTML = this.options.html;
+
+		// In favor of jQuery?
+		$('h1').html(this.options.html);
+
+		// ... or vanilla JS
+		// document.querySelector(this.options.el).innerHTML = this.options.html;
 	}
 
 }

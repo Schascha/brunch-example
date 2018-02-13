@@ -1,6 +1,6 @@
 # brunch-example
 
-Just a Brunch example with Babel, ES6, Sass, PostCSS (Autoprefixer) and PHP.
+Just a Brunch example with Babel, ES6, jQuery, Sass, PostCSS (Autoprefixer) and PHP.
 
 ## Install
 

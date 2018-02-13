@@ -1,10 +1,8 @@
 module.exports = {
 	files: {
 		javascripts: {
-			joinTo: {
-			  'js/app.js': /^app/,
-			},
-		},
+            joinTo: 'js/app.js'
+        },
 		stylesheets: {
 			joinTo: 'css/app.css'
 		}
@@ -16,7 +14,7 @@ module.exports = {
 		sass: {
 			options: {
 				includePaths: [
-					'node_modules/normalize.css',
+					'node_modules/reset-css',
 					'node_modules/sass-mq'
 				]
 			}
